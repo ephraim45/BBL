@@ -1,0 +1,444 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.nav{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.nav button{
+    height: 85%;
+    width: 7%;
+    background-color: orangered;
+    border-radius: 30px;
+    border: none;
+    color: white;
+
+}
+
+.nav li{
+    margin: 10px;
+}
+
+.picture{
+    height: 90%;
+    width: 100%;
+    background-image: url(/image/banner.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.picture h1{
+    color: rgb(71, 71, 71);
+    font-size: 50px;
+
+}
+
+.picture button{
+    height: 10%;
+    width: 13%;
+    background-color: orangered;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+.picture p{
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+
+}
+
+.phase{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+.phase h1{
+    font-size: 40px;
+    color: rgb(71, 71, 71);
+
+}
+
+.phase p{
+    font-size: 17px;
+    color: rgb(71, 71, 71);
+    margin-top: -15px;
+
+}
+
+.pic{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pic1{
+    height: 100%;
+    width: 30%;
+}
+
+.pic1 img{
+    height: 60%;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.pic2{
+    height: 100%;
+    width: 30%;
+}
+.pic2 img{
+    height: 60%;
+    width: 100%;
+    border-radius: 7px;
+}
+
+
+.pic3{
+    height: 100%;
+    width: 30%;
+}
+.pic3 img{
+    height: 60%;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.end1{
+    height: 100%;
+    width: 50%;
+
+}
+
+.end1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.end2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,148,110,.2);
+    
+    
+}
+
+.end2 h1{
+    font-size: 40px;
+    color: orangered;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.end2 p{
+    font-size: 20px;
+    color: #1a1a1a;
+    margin-left: 70px;
+}
+
+.end2 li{
+    margin: 8px;
+    color: #1a1a1a;
+    margin-left: 70px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.end2 button{
+    height: 10%;
+    width: 25%;
+    margin-left: 70px;
+    margin-top: 20px;
+    background-color: #e42a12;
+    color: white;
+    border: none;
+    border-radius: 35px;
+}
+
+.page4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.bit{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.bit h1{
+    font-size: 40px;
+    color: #484848;
+}
+
+.bit p{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+}
+
+.bit1{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 40%;
+    justify-content: center;
+
+}
+
+.bit1 img{
+    height: 60%;
+    width: 90%;
+}
+
+.page4 button{
+    background-color: #e42a12;
+    height: 10%;
+    width: 10%;
+    border: none;
+    border-radius: 45px;
+    color: white;
+
+}
+
+.page5{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.max{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.max img{
+    height: 10%;
+    width: 10%;
+}
+
+.mira{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mira1{
+    height: 20%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mira1 img{
+    height: 40%;
+    width: 55%;
+}
+
+.page5 h2{
+    justify-content: center;
+    display: flex;
+}
+
+
+.page6{
+    background-image: url(/image/subscribe.webp);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.era{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    width: 60%;
+    background-color: white;
+}
+
+.era input{
+    height: 15%;
+    width: 30%;
+    
+    
+    
+}
+
+.page7{
+    height: 100vh;
+    width: 100%;
+}
+
+.page7 h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.pad{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+}
+
+.pd1{
+    height: 100%;
+    width: 15%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+}
+
+.pd2{
+    height: 100%;
+    width: 15%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+}
+
+.pd3{
+    height: 100%;
+    width: 15%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+
+}
+.pd4{
+    height: 100%;
+    width: 15%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+
+
+}
+
+.pd4 img{
+    height: 55%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+}
+
+.pd5{
+    height: 100%;
+    width: 15%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+}
+
+.pad1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.pf1{
+    height: 28%;
+}
+
+.pf1 button{
+    background-color: red;
+    color: white;
+}
+
+
+
+.pad2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #484848;
+}
+
+
+
